@@ -76,7 +76,7 @@
         if (message == "") {
           document.getElementById("msg5").innerHTML = "Message must be filled out"
           setTimeout(function(){
-            document.getElementById("msg4").innerHTML = ""
+            document.getElementById("msg5").innerHTML = ""
                 },5000)
           return false;
         }
